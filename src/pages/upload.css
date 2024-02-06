@@ -1,0 +1,40 @@
+
+  
+ .drag-and-drop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:30vh;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  border: 2px dashed #9ca3af;
+  transition: border-color 0.3s ease;
+}
+
+.drag-and-drop:hover {
+  background-color: #fafafa;
+}
+
+.drag-and-drop p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.drag-and-drop label {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+    color: #9ca3af;
+    cursor: pointer;
+  }
+  
+  .drag-and-drop label:hover {
+    background-color: #e5e5e5;
+  }
+  
+  .custom-text-color {
+    color: #605BFF;
+  }
